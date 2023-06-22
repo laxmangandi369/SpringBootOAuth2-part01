@@ -1,0 +1,40 @@
+server:
+    port: 8080
+
+spring:
+    security:
+        oauth2:
+            client:
+                registration:
+                    google:
+                        clientId: 35167807228-37c2o9amrnlbinapooa08kd4kdgfpesv.apps.googleusercontent.com
+                        clientSecret: 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
+                        redirect-uri: http://localhost:8080/login/oauth2/code/google
+
+
+                    myoauth2:
+                        authorization-grant-type: authorization_code
+                        client-id: client
+                        client-secret: secret
+                        provider: spring
+                        redirect-uri: http://127.0.0.1:8080/login/oauth2/code/client
+                        scope:
+                         - openid
+                         - profile
+                         - email
+                         - phone
+                         - read
+                         - client.create
+                         - client.read
+                         - address
+
+                    github:
+                        clientId: 469867194f7ee8bf2813
+                        clientSecret: 37f1fb7fac67ab76327c7ab90ac234bb318417c3
+                        redirect-uri: http://localhost:8080/login/oauth2/code/github
+
+                provider:
+                    spring:
+                        issuer-uri: http://localhost:9000
+
+
