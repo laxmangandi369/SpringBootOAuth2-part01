@@ -14,6 +14,7 @@ public class App {
 
 	public void m1() {
 		//String s = "";
+		String s1="",
 		List<Integer> list = new ArrayList<Integer>();
 		list.add(1);
 		list.add(2);
