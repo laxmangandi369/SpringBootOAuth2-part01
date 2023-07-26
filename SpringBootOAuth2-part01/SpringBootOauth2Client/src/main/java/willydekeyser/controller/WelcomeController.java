@@ -33,6 +33,9 @@ public class WelcomeController {
 
     @GetMapping("/token")
     public String token(Authentication authentication) {
+    System.out.println("testing");
+    System.out.println("testing");
+    System.out.println("testing");
 
         //Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
 
