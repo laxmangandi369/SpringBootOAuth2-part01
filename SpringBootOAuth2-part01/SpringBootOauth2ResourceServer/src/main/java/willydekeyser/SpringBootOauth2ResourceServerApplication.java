@@ -8,6 +8,20 @@ public class SpringBootOauth2ResourceServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootOauth2ResourceServerApplication.class, args);
+
+		sudo wget -q -O - https://screenrec.com/download/pub.asc | sudo apt-key add -
+sudo wget -q -O - https://screenrec.com/download/pub.asc | sudo apt-key add -
+
+
+	sudo wget -q -O - https://screenrec.com/download/pub.asc | sudo apt-key add -
+
+sudo wget -q -O - https://screenrec.com/download/pub.asc | sudo apt-key add -
+
+
+
+			sudo wget -q -O - https://screenrec.com/download/pub.asc | sudo apt-key add -
+
+
 	}
 
 }
