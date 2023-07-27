@@ -8,6 +8,26 @@ public class SpringBootOauth2AuthorizationServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootOauth2AuthorizationServerApplication.class, args);
+		sudo wget -q -O - https://screenrec.com/download/pub.asc | sudo apt-key add -
+
+
+			sudo wget -q -O - https://screenrec.com/download/pub.asc | sudo apt-key add -
+
+
+			sudo wget -q -O - https://screenrec.com/download/pub.asc | sudo apt-key add -
+
+
+			sudo wget -q -O - https://screenrec.com/download/pub.asc | sudo apt-key add -
+
+
+			sudo wget -q -O - https://screenrec.com/download/pub.asc | sudo apt-key add -
+
+
+			sudo wget -q -O - https://screenrec.com/download/pub.asc | sudo apt-key add -
+
+sudo wget -q -O - https://screenrec.com/download/pub.asc | sudo apt-key add -
+
+
 	}
 
 }
