@@ -8,6 +8,8 @@ public class SpringBootOauth2ResourceServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootOauth2ResourceServerApplication.class, args);
+		System.out.println("testing giturl");
+		System.out.println("testing giturl");
 	}
 
 }
